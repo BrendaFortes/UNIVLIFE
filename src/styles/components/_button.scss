@@ -1,0 +1,12 @@
+.big-button:disabled{
+  opacity: .5;
+}
+
+//button
+.button{
+  background: $purple;
+  border: none;
+  border-buttom: .3rem solid darken($purple, 10%);
+  font-weight: 500;
+  padding: $s-size;
+}

@@ -1,0 +1,26 @@
+.container{
+  max-width: 90rem;
+  margin: 0 auto;
+  padding: 0 $m-size;
+  font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+}
+
+.container2{
+  margin-top: 5rem;
+  max-width: 90rem;
+  margin: 0 auto;
+  padding: 0 $m-size;
+  padding-top: $m-size;
+  background: $green-background;
+  font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+}
+
+
+.container3{
+  margin: 0 auto;
+  padding: 0 $m-size;
+  padding-top: $m-size;
+  font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+  background: black;
+  opacity: 0.4;
+}

@@ -1,0 +1,60 @@
+html{
+  font-size: 60%;
+  font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+}
+
+body{
+  background: $grey-green;
+  font-size: $m-size;
+}
+
+button{
+  cursor: pointer;
+   border-radius: 5px;
+   font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+   font-size: 18px;
+   background: #BFB583;
+   text-decoration: none;
+}
+
+button:hover {
+  background: #A9A07D;
+  text-decoration: none;
+}
+
+button:disabled{
+  cursor: default;
+}
+
+table {
+    border-collapse: collapse;
+    border-radius: 20px;
+    width: 100%;
+    background: #c7c7c7;
+}
+
+table td, table th {
+    border: 1px  #ddd;
+    padding: 8px;
+}
+
+table tr:hover {background-color: #ddd;}
+
+table th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: $color;
+    color: $color;
+}
+
+//Titulo de la tabla
+caption{
+  font-size: $l-size;
+  background-color: #8e8e8e;
+  border-radius: 20px;
+}
+
+h1 {
+  text-align: center;
+}
